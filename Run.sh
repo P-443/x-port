@@ -30,7 +30,7 @@ IP_ADDRESS=$(curl -s https://ipinfo.io/ip)
 COUNTRY_CODE=$(curl -s https://ipinfo.io/country)
 
 #------- import Country --------#
-curl -s https://raw.githubusercontent.com/l-s-I-I/speed/refs/heads/main/Country.sh -o Country.sh
+curl -s https://raw.githubusercontent.com/P-443/speed/refs/heads/main/Country.sh -o Country.sh
 source Country.sh
 
 COUNTRY_VPS_AND_FLAG=$(country_vps_flag $COUNTRY_CODE)
@@ -229,7 +229,7 @@ echo -e "\033[1;33m$IP_ADDRESS:$port@$User:$Pass —» $(country_vps_flag $COUNT
 echo ""
 echo "--------------------------------------------------------------------------"
 echo -e "\033[38;5;28m# DEV:- \033[1;34ml_s_I_I.T.ME\033[0m"
-echo -e "\033[1;32m# Script V ==> 1.5 √ \033[0m"
+echo -e "\033[1;32m# Script V ==> 1 √ \033[0m"
 echo "--------------------------------------------------------------------------"
 
 #----End of script-----#
