@@ -4,7 +4,7 @@
 
 # الأمر الذي ستستخدمه :-
 ```
-bash <(curl -s https://raw.githubusercontent.com/l-s-I-I/speed/main/Run.sh)
+bash <(curl -s https://raw.githubusercontent.com/P-443/speed/main/Run.sh)
 ```
 
 ---
