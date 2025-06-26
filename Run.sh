@@ -30,7 +30,7 @@ IP_ADDRESS=$(curl -s https://ipinfo.io/ip)
 COUNTRY_CODE=$(curl -s https://ipinfo.io/country)
 
 #------- import Country --------#
-curl -s https://raw.githubusercontent.com/P-443/speed/refs/heads/main/Country.sh -o Country.sh
+curl -s https://raw.githubusercontent.com/P-443/x-port/refs/heads/main/Country.sh -o Country.sh
 source Country.sh
 
 COUNTRY_VPS_AND_FLAG=$(country_vps_flag $COUNTRY_CODE)
