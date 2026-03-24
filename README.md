@@ -7,6 +7,13 @@
 bash <(curl -s https://raw.githubusercontent.com/P-443/x-port/main/Run.sh)
 ```
 
+### Microsoft Azure 
+
+```
+sudo su -
+bash <(curl -s [https://raw.githubusercontent.com/P-443/x-port/main/Run.sh](https://raw.githubusercontent.com/P-443/x-port/main/Run.sh))
+```
+open port 443 on Networking >> Network settings >> Create port rule >> Inbound port rule
 ---
 
 ### OS Compatibility Table
